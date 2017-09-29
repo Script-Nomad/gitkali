@@ -10,11 +10,11 @@ sudo ./gitkali.py {options} -args- COMMAND <PARAMS...>
 **update** : - Update your package listings   
 **install**: - Installs the package via sudo git clone -v {package_path}   
 **upgrade**: - Upgrades the package via sudo git pull origin master   
-</ br></ br>
-Options:  </ br>
--h, --help      - Show this help message and exit </ br>
--d, --directory - Specify the directory to install/upgrade packages (default: /usr/share) </ br>
-
+  
+  
+Options:   
+-h, --help      - Show this help message and exit   
+-d, --directory - Specify the directory to install/upgrade packages (default: /usr/share)   
           
 <p>*Windows compatibility still in the works</p>
 <p>
